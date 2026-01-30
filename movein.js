@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
   navHandler(pages.page3, pages.page2, "previous", []);
   navHandler(pages.page4, pages.page5, "next", ["p4-q1", "p4-q2", "p4-q3", "p4-q4", "p4-q5", "p4-q6"]);
   navHandler(pages.page4, pages.page3, "previous", []);
-  navHandler(pages.page5, pages.page6, "next", ["p5-q1", "p5-q2"]);
+  navHandler(pages.page5, pages.page6, "next", ["p5-q1", "p5-q2", "p5-q3"]);
   navHandler(pages.page5, pages.page4, "previous", []);
   navHandler(pages.page6, pages.page5, "previous", []);
 });
